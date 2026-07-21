@@ -1,4 +1,4 @@
--- ================================================
+-- ===============================================
 -- OLIST RFM ANALYSIS: DATA EXPLORATION
 -- Author: Sam Rose Maria Selvam
 -- Dataset: Olist Brazilian E-Commerce (BigQuery)
