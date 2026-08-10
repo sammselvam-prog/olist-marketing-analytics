@@ -1,4 +1,4 @@
-# Olist E-Commerce Customer Lifecycle & RFM Segmentation Analytics
+# E-Commerce Customer Lifecycle & RFM Segmentation Analytics
 
 [![Data Warehouse](https://img.shields.io/badge/Data_Warehouse-Google_BigQuery-4285F4?logo=googlecloud&logoColor=white)](https://cloud.google.com/bigquery)
 [![Data Analysis](https://img.shields.io/badge/Data_Analysis-Python_Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
