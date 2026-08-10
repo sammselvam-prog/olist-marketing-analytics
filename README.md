@@ -74,3 +74,13 @@ Computing Pearson correlation coefficients across $R, F,$ and $M$ confirmed near
 * **Monetary ($M$):** Highly right-skewed on raw scale with outliers exceeding $R\$ 10,000$. Applying a $\log_{10}$ transformation revealed a pristine **Log-Normal distribution** centered at the median of $R\$ 108$.
 * **Recency ($R$):** Right-skewed distribution with a primary peak at 50–100 days and a secondary promotional acquisition peak at 300–350 days ($Median = 267\text{ days}$).
 * **Frequency ($F$):** Extreme point-mass distribution at $F=1$ ($>97\%$).
+
+### 3. Z-Score Segment Fingerprinting
+
+<img width="450" height="300" alt="Segment Fingerprint Heatmap" src="https://github.com/user-attachments/assets/7efb3c4e-ca55-44b5-bfe8-f326b1b2a797" />
+
+
+Standardizing RFM scores ($z = \frac{x - \mu}{\sigma}$) isolates distinct behavioral profiles across segments:
+* **Champions ($z_F = +2.04, z_R = +1.23, z_M = +1.14$):** Exceptional repeat purchase frequency; highest value anchor.
+* **Can't Lose Them ($z_M = +0.82, z_R = -1.04, z_F = -0.76$):** High monetary spend paired with severe recency lapse.
+* **Lost ($z_M = -1.92, z_R = -1.05, z_F = -0.76$):** Lowest monetary score; candidate for budget suppression.
