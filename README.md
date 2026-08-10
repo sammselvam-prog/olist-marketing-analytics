@@ -47,6 +47,16 @@ CASE
   WHEN frequency = 3 THEN 3
   WHEN frequency BETWEEN 4 AND 5 THEN 4
   WHEN frequency >= 6 THEN 5
-END AS frequency_score
+END AS frequency_score 
 
+
+## Statistical Exploratory Data Analysis (Python)
+
+To ensure analytical rigor before building business dashboards, statistical distribution checks were executed in Python (`pandas`, `seaborn`, `matplotlib`, `scipy`).
+
+### 1. Metric Orthogonality (Correlation Heatmap)
+Computing Pearson correlation coefficients across $R, F,$ and $M$ confirmed near-zero linear dependence:
+* $r(\text{Recency}, \text{Frequency}) = -0.022$
+* $r(\text{Recency}, \text{Monetary}) = -0.0044$
+* $r(\text{Frequency}, \text{Monetary}) = 0.12$
 
