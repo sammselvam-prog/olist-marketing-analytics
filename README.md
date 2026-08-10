@@ -97,7 +97,9 @@ Standardizing RFM scores ($z = \frac{x - \mu}{\sigma}$) isolates distinct behavi
   **Interactive Tableau Workbook:** [Access Dashboard Story](https://public.tableau.com/app/profile/sam.rose.maria.selvam/viz/Dashboard-SegmentOverview/SegmentOverview)
 
 * **Dashboard 1: Customer Segment Overview**(Completed✅)
+  
   Executive view showing macro KPIs (93k users, R$15.42M revenue), segment volume distribution, dynamic metric switching, and Segment Fingerprint scores.
 * **Dashboard 2: Revenue Concentration & Pareto Analysis**(In Progress🔄)
+  
   Interactive Pareto curves and cumulative spend distribution across customer tiers.
 * **Dashboard 3: Order Trends & Temporal Dynamics** (Planned)
