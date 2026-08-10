@@ -26,5 +26,27 @@ E-commerce marketplaces often suffer from low repeat purchase rates and ineffici
 3. **Balanced Revenue Concentration (Pareto):** The top 20% of customers drive **~54% of cumulative revenue**. While lower than the classic 80/20 rule, it indicates a comparatively healthy revenue model not overly dependent on a tiny group of extreme whale accounts.
 
 
+### Technical Architecture & Workflow:
+1. **BigQuery Data Warehouse:** Multi-table schema joins, dynamic date anchoring, and hybrid SQL scoring tables.
 2. **Python Statistical EDA:** Log-scale distribution fitting, orthogonality matrix, and Z-score standardized profiling.
 3. **Tableau Executive Dashboards:** Dynamic KPI switching, segment fingerprint heatmaps, and interactive drill-downs.
+
+
+## Hybrid RFM Scoring Methodology
+Standard quantile binning (`NTILE(5)`) fails on e-commerce datasets with extreme frequency skew because SQL arbitrarily forces identical single-purchase records ($F=1$) into different buckets.
+
+To solve this, a **Hybrid Scoring Framework** was engineered:
+
+$$\text{RFM Score} = \text{NTILE}_5(\text{Recency}) \quad \vert \quad \text{Rule-Based}(\text{Frequency}) \quad \vert \quad \text{NTILE}_5(\text{Monetary})$$
+
+```sql
+-- Frequency Hybrid Logic implemented in BigQuery SQL
+CASE
+  WHEN frequency = 1 THEN 1
+  WHEN frequency = 2 THEN 2
+  WHEN frequency = 3 THEN 3
+  WHEN frequency BETWEEN 4 AND 5 THEN 4
+  WHEN frequency >= 6 THEN 5
+END AS frequency_score
+
+
