@@ -26,49 +26,5 @@ E-commerce marketplaces often suffer from low repeat purchase rates and ineffici
 3. **Balanced Revenue Concentration (Pareto):** The top 20% of customers drive **~54% of cumulative revenue**. While lower than the classic 80/20 rule, it indicates a comparatively healthy revenue model not overly dependent on a tiny group of extreme whale accounts.
 
 
-## 🔬 Statistical Exploratory Data Analysis (Python)
-
-To ensure analytical rigor before building business dashboards, statistical distribution checks were executed in Python (`pandas`, `seaborn`, `matplotlib`, `scipy`).
-
-### 1. Metric Orthogonality (Correlation Heatmap)
-Computing Pearson correlation coefficients across $R, F,$ and $M$ confirmed near-zero linear dependence:
-* $r(\text{Recency}, \text{Frequency}) = -0.022$
-* $r(\text{Recency}, \text{Monetary}) = -0.0044$
-* $r(\text{Frequency}, \text{Monetary}) = 0.12$
-
-> **Key Finding:** The three dimensions are **statistically orthogonal**, proving that Recency, Frequency, and Monetary metrics capture completely non-redundant behavioral signals.
-
-### 2. Distribution Profiling & Transformations
-* **Monetary ($M$):** Highly right-skewed on raw scale with outliers exceeding $R\$ 10,000$. Applying a $\log_{10}$ transformation revealed a pristine **Log-Normal distribution** centered at the median of $R\$ 108$.
-* **Recency ($R$):** Right-skewed distribution with a primary peak at 50–100 days and a secondary promotional acquisition peak at 300–350 days ($Median = 267\text{ days}$).
-* **Frequency ($F$):** Extreme point-mass distribution at $F=1$ ($>97\%$).
-
-### 3. Z-Score Segment Fingerprinting
-Standardizing RFM scores ($z = \frac{x - \mu}{\sigma}$) isolates distinct behavioral profiles across segments:
-* **Champions ($z_F = +2.04, z_R = +1.23, z_M = +1.14$):** Exceptional repeat purchase frequency; highest value anchor.
-* **Can't Lose Them ($z_M = +0.82, z_R = -1.04, z_F = -0.76$):** High monetary spend paired with severe recency lapse.
-* **Lost ($z_M = -1.92, z_R = -1.05, z_F = -0.76$):** Lowest monetary score; candidate for budget suppression.
-
----
-
-## 📐 Hybrid RFM Scoring Methodology
-
-Standard quantile binning (`NTILE(5)`) fails on e-commerce datasets with extreme frequency skew because SQL arbitrarily forces identical single-purchase records ($F=1$) into different buckets.
-
-To solve this, a **Hybrid Scoring Framework** was engineered:
-
-$$\text{RFM Score} = \text{NTILE}_5(\text{Recency}) \quad \vert \quad \text{Rule-Based}(\text{Frequency}) \quad \vert \quad \text{NTILE}_5(\text{Monetary})$$
-
-```sql
--- Frequency Hybrid Logic implemented in BigQuery SQL
-CASE
-  WHEN frequency = 1 THEN 1
-  WHEN frequency = 2 THEN 2
-  WHEN frequency = 3 THEN 3
-  WHEN frequency BETWEEN 4 AND 5 THEN 4
-  WHEN frequency >= 6 THEN 5
-END AS frequency_score
-### Technical Architecture & Workflow:
-1. **BigQuery Data Warehouse:** Multi-table schema joins, dynamic date anchoring, and hybrid SQL scoring tables.
 2. **Python Statistical EDA:** Log-scale distribution fitting, orthogonality matrix, and Z-score standardized profiling.
 3. **Tableau Executive Dashboards:** Dynamic KPI switching, segment fingerprint heatmaps, and interactive drill-downs.
