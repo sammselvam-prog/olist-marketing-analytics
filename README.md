@@ -47,7 +47,8 @@ CASE
   WHEN frequency = 3 THEN 3
   WHEN frequency BETWEEN 4 AND 5 THEN 4
   WHEN frequency >= 6 THEN 5
-END AS frequency_score 
+END AS frequency_score
+```
 
 
 ## Statistical Exploratory Data Analysis (Python)
