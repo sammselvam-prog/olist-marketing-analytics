@@ -57,6 +57,7 @@ To ensure analytical rigor before building business dashboards, statistical dist
 
 ### 1. Metric Orthogonality (Correlation Heatmap)
 Computing Pearson correlation coefficients across $R, F,$ and $M$ confirmed near-zero linear dependence:
+<img width="515" height="435" alt="CorrHeatmap" src="https://github.com/user-attachments/assets/ebd47db4-8e26-4048-b055-aacb80f60763" />
 * $r(\text{Recency}, \text{Frequency}) = -0.022$
 * $r(\text{Recency}, \text{Monetary}) = -0.0044$
 * $r(\text{Frequency}, \text{Monetary}) = 0.12$
