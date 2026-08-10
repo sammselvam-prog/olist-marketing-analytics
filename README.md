@@ -57,7 +57,7 @@ To ensure analytical rigor before building business dashboards, statistical dist
 
 ### 1. Metric Orthogonality (Correlation Heatmap)
 Computing Pearson correlation coefficients across $R, F,$ and $M$ confirmed near-zero linear dependence:
-<img width="515" height="435" alt="CorrHeatmap" src="https://github.com/user-attachments/assets/ebd47db4-8e26-4048-b055-aacb80f60763" />
+<img width="450" height="300" alt="CorrHeatmap" src="https://github.com/user-attachments/assets/ebd47db4-8e26-4048-b055-aacb80f60763" />
 * $r(\text{Recency}, \text{Frequency}) = -0.022$
 * $r(\text{Recency}, \text{Monetary}) = -0.0044$
 * $r(\text{Frequency}, \text{Monetary}) = 0.12$
@@ -84,3 +84,11 @@ Standardizing RFM scores ($z = \frac{x - \mu}{\sigma}$) isolates distinct behavi
 * **Champions ($z_F = +2.04, z_R = +1.23, z_M = +1.14$):** Exceptional repeat purchase frequency; highest value anchor.
 * **Can't Lose Them ($z_M = +0.82, z_R = -1.04, z_F = -0.76$):** High monetary spend paired with severe recency lapse.
 * **Lost ($z_M = -1.92, z_R = -1.05, z_F = -0.76$):** Lowest monetary score; candidate for budget suppression.
+
+### 4. Marketing Action Quadrants (Recency vs. Monetary)
+<img width="600" height="350" alt="Recency vs Monetary(Qaudrant plot)" src="https://github.com/user-attachments/assets/042c5dc2-1ede-4117-a559-1701110c9b9b" />
+
+* **Protect Zone(Recent & High Spend):** High priority retention; line of defense against competitor poaching.
+* **Win-Back Zone (Lapsed & High-Spend):** Highest financial upside per marketing dollar spent ($R\$ 4.24\text{M}$ locked).
+* **Grow Zone (Recent & Low-Spend):** Onboarding focus to expand basket size and order frequency.
+* **Deprioritize Zone (Lapsed & Low-Spend):** Minimal marketing allocation; low customer lifetime value.
