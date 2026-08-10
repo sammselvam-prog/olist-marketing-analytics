@@ -20,6 +20,13 @@ An end-to-end data Marketing Analytics portfolio project processing **93,357 uni
 
 E-commerce marketplaces often suffer from low repeat purchase rates and inefficient marketing spend when treating customer bases homogenously. This project engineered an end-to-end analytics solution to segment Olist's customer base, identify high-value churn risks, and maximize retention marketing ROI.
 
+BUSINESS METRIC SNAPSHOT
+• Total Unique Customers Analyzed : 93,357
+• Total Gross Revenue (Delivered) : R$ 15,420,000 (R$ 15.42M)
+• Median Transaction Value (Spend): R$ 108.00 (Log-Normal Distribution)
+• Median Recency Inactivity       : 267 Days (~8.9 Months)
+• Single-Purchase Customer Base   : ~97.0%
+• Top-Tier Loyalty Base           : 1.94% (Champions + Loyal Customers combined)
 
 ### Technical Architecture & Workflow:
 1. **BigQuery Data Warehouse:** Multi-table schema joins, dynamic date anchoring, and hybrid SQL scoring tables.
