@@ -5,7 +5,7 @@
 [![Visualization](https://img.shields.io/badge/Visualization-Tableau_Public-E97627?logo=tableau&logoColor=white)](https://public.tableau.com/)
 [![SQL Engine](https://img.shields.io/badge/SQL-Standard_SQL-003B57?logo=sqlite&logoColor=white)](./sql)
 
-An end-to-end data engineering and analytics portfolio project processing **93,357 unique Brazilian e-commerce customers** and **R$ 15.42M in transaction value** (2016–2018). Implements a custom **Hybrid RFM Model**, rigorous **Python statistical distribution profiling**, and an **Executive Tableau Dashboard Suite** to solve high-churn e-commerce mechanics.
+An end-to-end data Marketing Analytics portfolio project processing **93,357 unique Brazilian e-commerce customers** and **R$ 15.42M in transaction value** (2016–2018). Implements a custom **Hybrid RFM Model**, rigorous **Python statistical distribution profiling**, and an **Executive Tableau Dashboard Suite** to solve high-churn e-commerce mechanics.
 
 ---
 
