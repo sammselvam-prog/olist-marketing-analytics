@@ -9,13 +9,13 @@ An end-to-end data Marketing Analytics portfolio project processing **93,357 uni
 
 ---
 
-## 🔗 Quick Links & Navigation
-* 📊 **Tableau Interactive Dashboard Suite:** [View Live on Tableau Public](https://public.tableau.com/app/profile/sam.rose.maria.selvam/viz/Dashboard-SegmentOverview/SegmentOverview) (1 out of 3 ongoing Tableau Analysis )
-* 📓 **Python Exploratory Notebook:** [`notebooks/Phase2_RFM_Statistical_Analysis.ipynb`](./notebooks)
-* 🗄️ **BigQuery SQL Data Pipeline:** [`sql/`](./sql)
+## Quick Links & Navigation
+*  **Tableau Interactive Dashboard Suite:** [View Live on Tableau Public](https://public.tableau.com/app/profile/sam.rose.maria.selvam/viz/Dashboard-SegmentOverview/SegmentOverview) (1 out of 3 ongoing Tableau Analysis )
+*  **Python Exploratory Notebook:** [`notebooks/Phase2_RFM_Statistical_Analysis.ipynb`](./notebooks)
+*  **BigQuery SQL Data Pipeline:** [`sql/`](./sql)
 
 ---
 
-## 📌 Executive Summary & Key Business Highlights
+##  Executive Summary & Key Business Highlights
 
 E-commerce marketplaces often suffer from low repeat purchase rates and inefficient marketing spend when treating customer bases homogenously. This project engineered an end-to-end analytics solution to segment Olist's customer base, identify high-value churn risks, and maximize retention marketing ROI.
