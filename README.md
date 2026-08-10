@@ -62,3 +62,4 @@ Computing Pearson correlation coefficients across $R, F,$ and $M$ confirmed near
 * $r(\text{Recency}, \text{Monetary}) = -0.0044$
 * $r(\text{Frequency}, \text{Monetary}) = 0.12$
 
+> **Key Finding:** The three dimensions are **statistically orthogonal**, proving that Recency, Frequency, and Monetary metrics capture completely non-redundant behavioral signals.
