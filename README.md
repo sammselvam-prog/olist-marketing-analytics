@@ -70,6 +70,7 @@ Computing Pearson correlation coefficients across $R, F,$ and $M$ confirmed near
 <img width="580" height="455" alt="Recency Dist(Hist)" src="https://github.com/user-attachments/assets/98da168b-7498-4b53-b8f2-719cc9c038f9" /> 
 <img width="589" height="455" alt="Frequency Dist(Hist)" src="https://github.com/user-attachments/assets/a7710572-7d0e-4daa-8b24-07f2037f4176" />
   </p>
+
 * **Monetary ($M$):** Highly right-skewed on raw scale with outliers exceeding $R\$ 10,000$. Applying a $\log_{10}$ transformation revealed a pristine **Log-Normal distribution** centered at the median of $R\$ 108$.
 * **Recency ($R$):** Right-skewed distribution with a primary peak at 50–100 days and a secondary promotional acquisition peak at 300–350 days ($Median = 267\text{ days}$).
 * **Frequency ($F$):** Extreme point-mass distribution at $F=1$ ($>97\%$).
