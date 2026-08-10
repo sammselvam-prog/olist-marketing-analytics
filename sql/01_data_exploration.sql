@@ -28,7 +28,7 @@ ORDER BY order_count DESC;
 
 -- 5. Last order date in the dataset (for RFM reference)
 SELECT MAX(DATE(order_purchase_timestamp)) AS last_delivered_date
-FROM `olist.data.orders`;
+FROM `olist_data.orders`;
 
 -- 6. Orders per customer using customer_unique_id
 SELECT
