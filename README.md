@@ -37,7 +37,7 @@ Standard quantile binning (`NTILE(5)`) fails on e-commerce datasets with extreme
 
 To solve this, a **Hybrid Scoring Framework** was engineered:
 
-$$\text{RFM Score} = \text{NTILE}_5(\text{Recency}) \quad \vert \quad \text{Rule-Based}(\text{Frequency}) \quad \vert \quad \text{NTILE}_5(\text{Monetary})$$
+## $$\text{RFM Score} = \text{NTILE}_5(\text{Recency}) \quad \vert \quad \text{Rule-Based}(\text{Frequency}) \quad \vert \quad \text{NTILE}_5(\text{Monetary})$$
 
 ```sql
 -- Frequency Hybrid Logic implemented in BigQuery SQL
