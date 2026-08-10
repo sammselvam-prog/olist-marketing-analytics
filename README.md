@@ -23,7 +23,7 @@ E-commerce marketplaces often suffer from low repeat purchase rates and ineffici
 ### Core Strategic Findings:
 1. **The 97% Single-Buyer Trap:** Over 97% of Olist customers made only **1 purchase**. Converting just **5%** of the 61,422 buyers sitting in *Recent Customers* ($N=36,141$) and *Needs Attention* ($N=25,281$) into repeat buyers represents a higher ROI than cold acquisition.
 2. **Protecting R$ 4.24M in "Can't Lose Them":** 13,786 customers spent heavily ($z_M = +0.82$) but lapsed into severe inactivity ($z_R = -1.04$). Reactivating this single group recovers **27.5% of total platform revenue**.
-3. **Balanced Revenue Concentration (Pareto):** The top 20% of customers drive **~54% of cumulative revenue**. While lower than the classic 80/20 rule, it indicates a healthy revenue model not overly dependent on a tiny group of extreme whale accounts.
+3. **Balanced Revenue Concentration (Pareto):** The top 20% of customers drive **~54% of cumulative revenue**. While lower than the classic 80/20 rule, it indicates a comparatively healthy revenue model not overly dependent on a tiny group of extreme whale accounts.
 
 
 ### Technical Architecture & Workflow:
