@@ -106,6 +106,6 @@ Standardizing RFM scores ($z = \frac{x - \mu}{\sigma}$) isolates distinct behavi
 
 
 ## Reproduction Steps
-* **BigQuery Integration: Execute scripts**
-* **Python Analysis:** Run notebooks/Phase2_RFM_Statistical_Analysis.ipynb in Colab or Jupyter to generate statistical distribution models, heatmaps, and Z-score tables.
-* **Tableau Public:** Connect the processed olist_data.customer_segments table to Tableau to interact with the executive dashboard suite.
+* **BigQuery Integration:** Execute scripts ``` 01_data_exploration.sql ``` through ``` 05_revenue_concentration.sql ```
+* **Python Analysis:** Run ``` notebooks/Phase2_RFM_Statistical_Analysis.ipynb ``` in Colab or Jupyter to generate statistical distribution models, heatmaps, and Z-score tables.
+* **Tableau Public:** Connect the processed ``` olist_data.customer_segments ``` table to Tableau to interact with the executive dashboard suite.
