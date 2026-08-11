@@ -103,3 +103,9 @@ Standardizing RFM scores ($z = \frac{x - \mu}{\sigma}$) isolates distinct behavi
   
   Interactive Pareto curves and cumulative spend distribution across customer tiers.
 * **Dashboard 3: Order Trends & Temporal Dynamics** (Planned)
+
+
+## Reproduction Steps
+* **BigQuery Integration: Execute scripts**
+* **Python Analysis:** Run notebooks/Phase2_RFM_Statistical_Analysis.ipynb in Colab or Jupyter to generate statistical distribution models, heatmaps, and Z-score tables.
+* **Tableau Public:** Connect the processed olist_data.customer_segments table to Tableau to interact with the executive dashboard suite.
