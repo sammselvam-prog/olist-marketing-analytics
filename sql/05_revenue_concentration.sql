@@ -1,6 +1,6 @@
 -- ================================================
 -- OLIST RFM ANALYSIS: REVENUE CONCENTRATION
--- Pareto analysis.
+-- Revenue Overview
 -- ================================================
 
 SELECT
