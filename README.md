@@ -54,6 +54,8 @@ END AS frequency_score
 
 To translate behavioral analytics into business strategy, customers were classified into distinct risk and loyalty segments using a Hierarchical CASE Evaluation in SQL.
 
+```
+
   +----------------------------------------------------------------------------+
   
   |                   Hierarchical Segment Progression                         |
@@ -75,6 +77,8 @@ To translate behavioral analytics into business strategy, customers were classif
   | [7] Needs Attention     --> Default (Fallback Segment)                     |
   
   +----------------------------------------------------------------------------+
+
+```
 
 ## Statistical Exploratory Data Analysis (Python)
 
