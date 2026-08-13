@@ -54,27 +54,27 @@ END AS frequency_score
 
 To translate behavioral analytics into business strategy, customers were classified into distinct risk and loyalty segments using a Hierarchical CASE Evaluation in SQL.
 
-  +--------------------------------------------------------------------------+
+  +----------------------------------------------------------------------------+
   
-  |                   Hierarchical Segment Progression                       |
+  |                   Hierarchical Segment Progression                         |
   
-  +--------------------------------------------------------------------------+
+  +----------------------------------------------------------------------------+
   
-  | [1] Champions         --> R >= 4, F >= 3, M >= 4                         |
+  | [1] Champions           --> R >= 4, F >= 3, M >= 4                         |
   
-  | [2] Loyal Customers   --> R >= 3, F >= 2                                 |
+  | [2] Loyal Customers     --> R >= 3, F >= 2                                 |
   
-  | [3] Recent Customers  --> R >= 4, F == 1                                 |
+  | [3] Recent Customers    --> R >= 4, F == 1                                 |
   
-  | [4] At Risk           --> R <= 2, F >= 2                                 |
+  | [4] At Risk             --> R <= 2, F >= 2                                 |
   
-  | [5] Can't Lose Them   --> R <= 2, F == 1, M >= 4                         |
+  | [5] Can't Lose Them     --> R <= 2, F == 1, M >= 4                         |
   
-  | [6] Lost              --> R <= 2, F == 1, M <= 2                         |
+  | [6] Lost                --> R <= 2, F == 1, M <= 2                         |
   
-  | [7] Needs Attention   --> Default (Fallback Segment)                     |
+  | [7] Needs Attention     --> Default (Fallback Segment)                     |
   
-  +--------------------------------------------------------------------------+
+  +----------------------------------------------------------------------------+
 
 ## Statistical Exploratory Data Analysis (Python)
 
