@@ -56,27 +56,17 @@ To translate behavioral analytics into business strategy, customers were classif
 
 ```
 
-  +----------------------------------------------------------------------------+
-  
-  |                   Hierarchical Segment Progression                         |
-  
-  +----------------------------------------------------------------------------+
-  
-  | [1] Champions           --> R >= 4, F >= 3, M >= 4                         |
-  
-  | [2] Loyal Customers     --> R >= 3, F >= 2                                 |
-  
-  | [3] Recent Customers    --> R >= 4, F == 1                                 |
-  
-  | [4] At Risk             --> R <= 2, F >= 2                                 |
-  
-  | [5] Can't Lose Them     --> R <= 2, F == 1, M >= 4                         |
-  
-  | [6] Lost                --> R <= 2, F == 1, M <= 2                         |
-  
-  | [7] Needs Attention     --> Default (Fallback Segment)                     |
-  
-  +----------------------------------------------------------------------------+
+  +-----------------------------------------------------------------+
+  |                   Hierarchical Segment Progression              |  
+  +-----------------------------------------------------------------+  
+  | [1] Champions         --> R >= 4, F >= 3, M >= 4                |  
+  | [2] Loyal Customers   --> R >= 3, F >= 2                        |  
+  | [3] Recent Customers  --> R >= 4, F == 1                        |  
+  | [4] At Risk           --> R <= 2, F >= 2                        |  
+  | [5] Can't Lose Them   --> R <= 2, F == 1, M >= 4                |  
+  | [6] Lost              --> R <= 2, F == 1, M <= 2                |  
+  | [7] Needs Attention   --> Default (Fallback Segment)            |  
+  +-----------------------------------------------------------------+
 
 ```
 
