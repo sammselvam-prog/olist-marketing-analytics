@@ -10,7 +10,7 @@ An end-to-end data Marketing Analytics portfolio project processing **93,357 uni
 ---
 
 ## Quick Links & Navigation
-*  **Tableau Interactive Dashboard Suite:** [View Live on Tableau Public](https://public.tableau.com/app/profile/sam.rose.maria.selvam/viz/Dashboard-SegmentOverview/Story1) (2 out of 3 ongoing Tableau Analysis )
+*  **Tableau Interactive Dashboard Suite:** [View Live on Tableau Public](https://public.tableau.com/app/profile/sam.rose.maria.selvam/viz/Dashboard-SegmentOverview/Story1) 
 *  **Python Exploratory Notebook:** [`notebooks/Phase2_RFM_Statistical_Analysis.ipynb`](./notebooks)
 *  **BigQuery SQL Data Pipeline:** [`sql/`](./sql)
 
