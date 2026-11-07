@@ -10,7 +10,7 @@ An end-to-end data Marketing Analytics portfolio project processing **93,357 uni
 ---
 
 ## Quick Links & Navigation
-*  **Tableau Interactive Dashboard Suite:** [View Live on Tableau Public](https://public.tableau.com/app/profile/sam.rose.maria.selvam/viz/Dashboard-SegmentOverview/SegmentOverview) (1 out of 3 ongoing Tableau Analysis )
+*  **Tableau Interactive Dashboard Suite:** [View Live on Tableau Public](https://public.tableau.com/app/profile/sam.rose.maria.selvam/viz/Dashboard-SegmentOverview/Story1) (2 out of 3 ongoing Tableau Analysis )
 *  **Python Exploratory Notebook:** [`notebooks/Phase2_RFM_Statistical_Analysis.ipynb`](./notebooks)
 *  **BigQuery SQL Data Pipeline:** [`sql/`](./sql)
 
@@ -113,15 +113,12 @@ Standardizing RFM scores ($z = \frac{x - \mu}{\sigma}$) isolates distinct behavi
 * **Deprioritize Zone (Lapsed & Low-Spend):** Minimal marketing allocation; low customer lifetime value.
 
 ## Tableau Dashboard Suite Progress Tracker
-  **Interactive Tableau Workbook:** [Access Dashboard Story](https://public.tableau.com/app/profile/sam.rose.maria.selvam/viz/Dashboard-SegmentOverview/SegmentOverview)
+  **Interactive Tableau Workbook:** [Access Dashboard Story](https://public.tableau.com/app/profile/sam.rose.maria.selvam/viz/Dashboard-SegmentOverview/Story1)
 
 * **Dashboard 1: Customer Segment Overview**(Completed✅)
   
   Executive view showing macro KPIs (93k users, R$15.42M revenue), segment volume distribution, dynamic metric switching, and Segment Fingerprint scores.
-* **Dashboard 2: Revenue Concentration & Pareto Analysis**(In Progress🔄)
-  
-  Interactive Pareto curves and cumulative spend distribution across customer tiers.
-* **Dashboard 3: Order Trends & Temporal Dynamics** (Planned)
+* **Dashboard 2: Revenue Concentration & Pareto Analysis**(Completed✅)
 
 
 ## Reproduction Steps
