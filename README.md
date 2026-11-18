@@ -6,6 +6,7 @@
 [![SQL Engine](https://img.shields.io/badge/SQL-Standard_SQL-003B57?logo=sqlite&logoColor=white)](./sql)
 
 An end-to-end data Marketing Analytics portfolio project processing **93,357 unique Brazilian e-commerce customers** and **R$ 15.42M in transaction value** (2016–2018). Implements a custom **Hybrid RFM Model**, rigorous **Python statistical distribution profiling**, and an **Executive Tableau Dashboard Suite** to solve high-churn e-commerce mechanics.
+<img width="1917" height="1038" alt="Screenshot 2026-11-18 205734" src="https://github.com/user-attachments/assets/43df6c87-061d-4fda-a0ba-fbcd34eac4ca" />
 
 ---
 
